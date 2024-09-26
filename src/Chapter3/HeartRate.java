@@ -1,4 +1,4 @@
-package classes;
+package Chapter3;
 
 public class HeartRate {
     private String firstName;

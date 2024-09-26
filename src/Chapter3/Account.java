@@ -1,29 +1,31 @@
-package classes;
+package Chapter3;
 
 public class Account {
-   private String name;
-   private double balance;
+    private String accountName;
+    private double accountBalance;
 
-   public Account(String name,double balance){
-       this.balance=balance;
-       this.name=name;
 
-   }
-   public void setName(String name){
-       this.name=name;
-   }
-   public String getName(){
-       return name;
-   }
-   public void setBalance(int balance){
-       this.balance=balance;
-   }
-   public double getBalance(){
-       return balance;
-   }
-   public void deposit(double depositAmount){
-       if (depositAmount > 0.0){
-           depositAmount += balance;
-       }
-   }
+    public void setName(String name) {
+        accountName = name;
+    }
+
+    public String getName() {
+        return accountName;
+    }
+
+    public double getBalance() {
+        return accountBalance;
+    }
+
+    public void deposit(double amount) {
+        if(amount <= 0)
+            throw new RuntimeException("Deposit amount must be greater than or equals");
+        accountBalance = accountBalance + amount;
+//        accountBaals to balance += depositAmount;
+    }
+
+    public void withdraw(double amount) {
+        accountBalance = accountBalance - amount;
+//        accountBalance -= amount;
+    }
 }
