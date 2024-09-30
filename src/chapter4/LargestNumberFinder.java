@@ -17,7 +17,7 @@ package chapter4;
             }
 
             System.out.println("The largest number is: " + largest);
-            scanner.close();
+
         }
     }
 
