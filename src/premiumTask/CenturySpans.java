@@ -13,7 +13,11 @@ public class CenturySpans {
               }else {
               System.out.println("secondCentury");
 
-
+                //psuedocode:
+              //collect input from the user
+              //prompt a user to enter any number,
+              //then conditional statement, if firstCentury is less than or equal to 100,
+              //print out "firstCentury", else, it should print out second century.
           }
 
       }
