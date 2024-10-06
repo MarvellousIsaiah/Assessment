@@ -14,13 +14,18 @@ public class Comparator {
 
         if(num1 == num2) {
             System.out.println("0");
+
         }else if(num1 > num2) {
             System.out.println("1");
         }else {
             System.out.println("-1");
 
-
-
         }
+
+
     }
+
+
+
+
 }

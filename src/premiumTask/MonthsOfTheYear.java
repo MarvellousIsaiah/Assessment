@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MonthsOfTheYear {
     public static void main(String[] args) {
 
-        System.out.println("enter a number");
+        System.out.println("enter a number from 1 to 12");
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
        //5 System.out.println("firstQuarter");
@@ -21,7 +21,7 @@ public class MonthsOfTheYear {
         }else if(number <=12 ){
             System.out.println("fourthQuarter");
         }
-        // psuedcode
+        // pseudocode
         //collect input from the user
         //prompt a user to enter any number,
         //then conditional statement, if number is less than  or equal to 3, then print out first quarter,

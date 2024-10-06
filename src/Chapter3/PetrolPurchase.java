@@ -57,4 +57,8 @@ public class PetrolPurchase {
       // return quantity * pricePerLitre;
 
    }
+
+    public double getPurchase(int i) {
+        return 0;
+    }
 }

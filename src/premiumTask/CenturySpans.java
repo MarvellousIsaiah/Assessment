@@ -9,11 +9,12 @@ public class CenturySpans {
         int firstCentury = input.nextInt();
 
           if(firstCentury <= 100){
+              //
               System.out.println("firstCentury");
               }else {
               System.out.println("secondCentury");
 
-                //psuedocode:
+                //pseudocode:
               //collect input from the user
               //prompt a user to enter any number,
               //then conditional statement, if firstCentury is less than or equal to 100,
