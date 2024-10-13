@@ -1,4 +1,4 @@
-package Ay;
+package works;
 
 public class TruncateDouble {
     public static void main(String[] args) {

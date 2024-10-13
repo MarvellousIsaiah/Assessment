@@ -1,6 +1,6 @@
 package premiumTask;
 
-public interface Skin {
-    void eyeSocket();
-    String palm();
+public interface Bungalow {
+    void door();
+    String window();
 }
